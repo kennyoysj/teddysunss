@@ -41,4 +41,10 @@ haproxy.sh
 - Description: Auto Install haproxy for Shadowsocks Server
 - Intro: https://shadowsocks.be/10.html
 
+``` bash
+wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/kennyoysj/teddysunss/master/shadowsocks.sh
+chmod +x shadowsocks.sh
+./shadowsocks.sh 2>&1 | tee shadowsocks.log
+```
+
 Copyright (C) 2014-2017 Teddysun
